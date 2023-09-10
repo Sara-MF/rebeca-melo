@@ -1,6 +1,6 @@
 export default function Home() {
     return (
-        <main>
+        <main className="content">
             <h1>Conheça meus projetos</h1>
         </main>
     )
