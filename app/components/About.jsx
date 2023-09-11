@@ -5,7 +5,7 @@ export default function About() {
         <main class="about">
 
             <div class="flex flex-col items-center mt-6">
-                <div class="h-20 w-20 relative">
+                <div class="h-44 w-44 relative">
                     <Image
                         src="/temporary-picture.png"
                         alt="My picture"

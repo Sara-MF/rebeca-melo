@@ -3,21 +3,33 @@
 @tailwind utilities;
 
 body {
-    @apply bg-teal-100 flex flex-row;
+    @apply bg-teal-100 flex flex-row h-screen;
 }
 
 .about {
-    @apply flex flex-col w-1/4 h-screen px-4 py-8 dark:bg-gray-900 dark:border-gray-700;
+    @apply flex flex-col w-1/4 h-full px-4 py-8 dark:bg-gray-900 dark:border-gray-700 ;
 }
 
 .name {
-    @apply mx-2 mt-2 font-medium text-gray-800 dark:text-gray-200;
+    @apply mx-2 mt-6 font-medium text-gray-800 dark:text-gray-200;
 }
 
 .age-pronoums {
-    @apply flex flex-row space-x-4 mx-2 mt-1 text-sm font-medium text-gray-600 dark:text-gray-400;
+    @apply flex flex-row space-x-10 mx-2 mt-4 text-sm font-medium text-gray-600 dark:text-gray-400;
 }
 
 .content {
-    @apply w-3/4 text-center mt-16;
+    @apply w-3/4 text-center mt-16 flex flex-col items-center gap-16 overflow-y-scroll;
+}
+
+.content > h1 {
+    @apply text-5xl ;
+}
+
+.project {
+    @apply w-40 h-40 border-2 rounded border-blue-950 cursor-pointer hover:scale-150 duration-500 bg-gradient-to-r from-sky-500 to-indigo-500 flex items-center justify-center;
+}
+
+.projects {
+    @apply grid grid-cols-3 gap-32 pb-20;
 }
