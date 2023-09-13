@@ -2,12 +2,12 @@ import Image from "next/image"
 
 export default function About() {
     return (
-        <main class="about">
+        <main className="about">
 
-            <div class="flex flex-col items-center mt-6">
-                <div class="h-44 w-44 relative">
+            <div className="flex flex-col items-center mt-6">
+                <div className="h-64 w-64 relative">
                     <Image
-                        src="/temporary-picture.png"
+                        src="/my-photo.png"
                         alt="My picture"
                         layout="fill"
                         objectFit="cover"
@@ -15,12 +15,17 @@ export default function About() {
                     />
                 </div>
 
-                <h4 class="name">Rebeca Melo</h4>
+                <h4 className="name">Rebeca Melo</h4>
 
-                <div class="age-pronoums">
-                    <p>22 anos</p>
-                    <p>Ela / Dela</p>
+                <div className="age-pronoums">
+                    <p>Ela / Dela | 22 anos</p>
                 </div>
+
+                <h4 className="about-me">Sou graduanda em Design pela Universidade Federal do Ceará e estou morrendo por um emprego ;)</h4>
+
+                <h5>Futuro link pra currículo no drive</h5>
+
+                <h6>Deselvolvido por Sara Melo</h6>
 
             </div>
 

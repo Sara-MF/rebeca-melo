@@ -1,9 +1,9 @@
 import './globals.css'
-import { IBM_Plex_Sans } from 'next/font/google'
+import { Solway } from 'next/font/google'
 
 import About from './components/About'
 
-const ibm_plex_sans = IBM_Plex_Sans({ subsets: ['latin'], weight: ["300"] })
+const solway = Solway({ subsets: ['latin'], weight: ["300", "400", "500"] })
 
 export const metadata = {
     title: 'Rebeca Melo - Portfolio',
@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={ibm_plex_sans.className}>
+            <body className={solway.className}>
                 <About />
                 {children}
             </body>
