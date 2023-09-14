@@ -7,7 +7,7 @@ h1 {
 }
 
 h5, h6 {
-    @apply text-sand text-xl font-normal pt-36;
+    @apply text-sand text-xl font-normal pt-20;
 }
 
 body {
@@ -15,19 +15,19 @@ body {
 }
 
 .about {
-    @apply flex flex-col w-1/4 h-full pt-24 bg-grape;
+    @apply flex flex-col w-1/4 h-full pt-16 bg-grape;
 }
 
 .name {
-    @apply mt-12 font-medium text-sand text-5xl;
+    @apply mt-8 font-medium text-sand text-4xl;
 }
 
 .age-pronoums {
-    @apply flex flex-row space-x-10 mx-2 mt-4 font-light text-sand text-4xl;
+    @apply flex flex-row space-x-10 mx-2 mt-4 font-light text-sand text-3xl;
 }
 
 .about-me {
-    @apply px-32 pt-28 font-medium text-sand text-2xl text-justify;
+    @apply px-32 pt-20 font-medium text-sand text-xl text-justify;
 }
 
 .content {
@@ -39,7 +39,7 @@ body {
 }
 
 .project {
-    @apply w-80 h-80 border-4 rounded-3xl border-grape cursor-pointer hover:scale-125 duration-500 bg-stone flex items-center justify-center;
+    @apply w-72 h-72 border-4 rounded-3xl border-grape cursor-pointer hover:scale-125 duration-500 bg-stone flex items-center justify-center;
 }
 
 .projects {

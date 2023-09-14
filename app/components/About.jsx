@@ -5,7 +5,7 @@ export default function About() {
         <main className="about">
 
             <div className="flex flex-col items-center mt-6">
-                <div className="h-64 w-64 relative">
+                <div className="h-48 w-48 relative">
                     <Image
                         src="/my-photo.png"
                         alt="My picture"
@@ -25,7 +25,7 @@ export default function About() {
 
                 <h5>Futuro link pra currículo no drive</h5>
 
-                <h6>Deselvolvido por Sara Melo</h6>
+                <h6>Desenvolvido por Sara Melo</h6>
 
             </div>
 
