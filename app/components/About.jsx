@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { getAge } from "../utils/DateUtil"
 
 export default function About() {
     return (
@@ -18,7 +19,7 @@ export default function About() {
                 <h4 className="name">Rebeca Melo</h4>
 
                 <div className="age-pronoums">
-                    <p>Ela / Dela | 22 anos</p>
+                    <p>Ela / Dela | {getAge()} </p>
                 </div>
 
                 <h4 className="about-me">Sou graduanda em Design pela Universidade Federal do Ceará e estou morrendo por um emprego ;)</h4>
