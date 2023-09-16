@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import { getAge } from "../utils/DateUtil"
 
 export default function About() {
@@ -26,7 +27,7 @@ export default function About() {
 
                 <h5>Futuro link pra currículo no drive</h5>
 
-                <h6>Desenvolvido por Sara Melo</h6>
+                <Link href={"https://www.linkedin.com/in/sara-mf/"} target="_blank"><h6>Desenvolvido por Sara Melo</h6></Link>
 
             </div>
 
