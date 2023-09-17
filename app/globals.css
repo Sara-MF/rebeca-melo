@@ -31,15 +31,11 @@ body {
 }
 
 .content {
-    @apply w-3/4 text-center mt-16 flex flex-col items-center gap-16 overflow-y-scroll;
+    @apply w-3/4 text-center flex flex-col items-center gap-16 overflow-y-auto;
 }
 
 .title {
-    @apply bg-sand rounded-3xl mt-14 mb-10;
-}
-
-.project {
-    @apply w-72 h-72 border-4 rounded-3xl border-grape cursor-pointer hover:scale-125 duration-500 bg-stone flex items-center justify-center;
+    @apply bg-sand rounded-3xl mt-20 mb-10;
 }
 
 .projects {
