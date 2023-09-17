@@ -3,9 +3,9 @@ import Link from "next/link"
 
 export default function Project({ name, link }) {
     return (
-        <main>
+        <main className="h-80 w-80 flex items-center justify-center">
 
-            <div className="group w-fit h-fit grid place-content-evenly rounded-3xl border-4 border-grape bg-stone hover:border-2 hover:scale-125 z-0 hover:z-10 duration-1000">
+            <div className="group w-fit h-fit grid rounded-3xl border-4 border-grape bg-stone hover:border-2 hover:scale-125 z-0 hover:z-10 duration-1000">
 
                 <div className="grid group-hover:m-4 duration-1000">
 
