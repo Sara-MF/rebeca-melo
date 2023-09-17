@@ -9,13 +9,13 @@ export default function Home() {
             </div>
 
             <div className="projects">
-                <Project name="Projeto 1" />
-                <Project name="Projeto 2" />
-                <Project name="Projeto 3" />
-                <Project name="Projeto 4" />
-                <Project name="Projeto 5" />
-                <Project name="Projeto 6" />
-                <Project name="Projeto 7" />
+                <Project name="Projeto 1" link={"/projeto1"} />
+                <Project name="Projeto 2" link={"/projeto1"} />
+                <Project name="Projeto 3" link={"/projeto1"} />
+                <Project name="Projeto 4" link={"/projeto1"} />
+                <Project name="Projeto 5" link={"/projeto1"} />
+                <Project name="Projeto 6" link={"/projeto1"} />
+                <Project name="Projeto 7" link={"/projeto1"} />
             </div>
         </main>
     )
