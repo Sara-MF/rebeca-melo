@@ -1,4 +1,5 @@
 import './globals.css'
+import './scroll.css'
 import { Solway } from 'next/font/google'
 
 import About from './components/About'
