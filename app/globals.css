@@ -19,7 +19,7 @@ body {
 }
 
 .name {
-    @apply mt-8 font-medium text-sand text-9xl;
+    @apply mt-8 font-medium text-sand text-4xl;
 }
 
 .age-pronoums {
