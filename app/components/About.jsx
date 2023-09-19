@@ -7,7 +7,7 @@ export default function About() {
         <main className="about">
 
             <div className="flex flex-col items-center mt-6">
-                <div className="h-48 w-48 relative">
+                <div className="h-44 w-44 relative">
                     <Image
                         src="/my-photo.png"
                         alt="My picture"

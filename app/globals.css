@@ -7,7 +7,7 @@ h1 {
 }
 
 h5, h6 {
-    @apply text-sand text-xl font-normal pt-20;
+    @apply text-sand text-lg font-normal pt-20;
 }
 
 body {
@@ -23,11 +23,11 @@ body {
 }
 
 .age-pronoums {
-    @apply flex flex-row space-x-10 mx-2 mt-4 font-light text-sand text-3xl;
+    @apply flex flex-row space-x-10 mx-2 mt-4 font-light text-sand text-2xl;
 }
 
 .about-me {
-    @apply px-32 pt-20 font-medium text-sand text-xl text-justify;
+    @apply px-32 pt-20 font-medium text-sand text-lg text-justify;
 }
 
 .content {
