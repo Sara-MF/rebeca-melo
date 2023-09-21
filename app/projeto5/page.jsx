@@ -1,10 +1,13 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Projeto5() {
     return (
         <main className="content">
 
-            <div className="py-20 px-40">
+            <div className="py-10 px-40">
+
+                <Link href={"/"} className="text-grape font-extralight text-lg flex flex-start pb-7">Voltar</Link>
 
                 <div className="relative">
 
@@ -41,6 +44,8 @@ export default function Projeto5() {
                     </div>
 
                 </div>
+
+                <Link href={"/"} className="text-grape font-extralight text-lg flex flex-start pt-12">Voltar</Link>
 
             </div>
 
